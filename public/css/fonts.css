@@ -1,0 +1,31 @@
+
+
+@font-face {
+    font-family: 'Fonte1' ;
+    src: url(/public/assets/fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Fonte2' ;
+    src: url(/public/assets/fonts/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Fonte3' ;
+    src: url(/public/assets/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Fonte4' ;
+    src: url(/public/assets/fonts/iFoodRCTextos-Light.woff2);
+}
+
+@font-face {
+    font-family: 'Fonte5' ;
+    src: url(/public/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Fonte6';
+    src: url(/public/assets/fonts/Retosta.otf);
+}

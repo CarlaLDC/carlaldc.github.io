@@ -1,0 +1,298 @@
+body {
+    background-color: #421a14;
+    margin: 0px 100px;
+    margin-bottom: 100px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #421a14;
+    
+}
+
+.cabecalho a {
+    font-family: Fonte1;
+    text-decoration: none;
+
+    color: #e5b791;
+
+}
+
+.cabecalho > h1 {
+    font-size: 70px;
+    margin: 50px 10px;
+
+    font-family: fonte1;
+    color: #e5b791;
+
+    text-shadow: 4px 4px 3px #000000;
+
+}
+
+.segunda {
+    padding-top: 100px ;
+    background-color: #e0dddd;
+    background-color: #e5b791;
+   
+}
+
+.segunda img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    margin-left: 170px;
+
+    margin-bottom: -160px ;
+
+}
+
+.segunda p {
+    position: relative;
+    top: -350px;
+    right: -860px;
+
+    color: #e0e0e0;
+    width: 480px;
+
+    text-shadow: 3px 1px 2px #000000;
+
+    text-align: right;
+    font-size: 25px;
+    font-family: Fonte1;
+    font-weight: 800;
+}
+
+
+
+#emblema {
+    display: flex;
+    flex-direction: column;    
+
+    background-color: #e5b791;
+
+    margin-top: 100px;
+
+
+}
+
+.selo {
+    width: 70px;
+    position: relative;
+    bottom: -56px;
+    right: -20px;
+}
+
+.certo {
+    width: 20px;
+
+    position: relative;
+    bottom: -25px;
+    right: -80px;
+}
+
+#emblema h1 {
+    font: 600 50px fonte1;
+
+    text-shadow: 3px 1px 1px #e0dddd;
+    color: rgb(48, 46, 55);
+
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#emblema p {
+    margin: 0px 30px 10px 80px ;
+    font-family: fonte4;
+}
+
+#emblema h4 {
+    margin: 10px 20px 5px 110px ;
+    font-family: fonte4;
+
+}
+
+.bottom {
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+#avaliacao {
+    display: flex;
+    gap: 40px;
+
+    background-color: #e5b791;
+    margin-top: 40px;
+    padding: 150px;
+
+    
+}
+
+.titulo h1 {
+    font: 600 50px fonte1;
+    color: rgb(48, 46, 55);
+
+   position: relative;
+   bottom: -150px;
+   right: -180px;
+
+    text-shadow: 3px 1px 1px #e0dddd;
+
+}
+
+.pessoa {
+    display: inline-block;
+   
+    background-color: #e0dddd;
+    width: 400px;
+
+    border-radius: 20px;
+
+    box-shadow: 5px 3px 5px #3d3c3c;
+}
+
+#avaliacao .user {
+    width: 100px;
+}
+
+#avaliacao .estrela {
+    width: 200px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    font-family: fonte1;
+}
+
+#avaliacao p {
+    margin: 10px 20px;
+    font-family: fonte4;
+}
+
+
+
+#endereco {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #e5b791;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#endereco img {
+    width: 800px;
+    margin: 50px 50px;
+}
+
+.localiza {
+    position: relative;
+    left: -100px;
+}
+
+.point {
+    width: 0px;
+    height: 200px;
+
+    position: relative;
+    bottom: -70px;
+    right: -80px;
+}
+
+.textos {
+    margin-top: 50px;
+}
+
+#endereco h2 {
+    margin: 32px 40px -15px 80px;
+    font-family: fonte4;
+
+    width: 350px;
+}
+
+#endereco h1 {
+    margin: 100px 40px 30px 80px;
+    font: 600 50px fonte1;
+
+    color: rgb(48, 46, 55);
+    text-shadow: 3px 1px 1px #e0dddd;
+}
+
+
+
+
+
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: #e5b791;
+    padding: 120px;
+    margin-left: 0px;
+    gap: 80px;
+}
+
+.marketing  h1 {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: Fonte6;
+
+    text-align: center;
+    text-shadow: 3px 1px 1px #e0dddd;
+
+    color: rgb(48, 46, 55);
+}
+
+.complicado {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.juntos {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato h2 {
+    font-weight: 600;
+    font-family: fonte1;
+    color: rgb(48, 46, 55);
+}
+
+#contato .separate {
+    margin-bottom: 40px;
+}
+
+#contato p {
+    font-family: fonte4;
+    margin-top: 10px;
+    
+}

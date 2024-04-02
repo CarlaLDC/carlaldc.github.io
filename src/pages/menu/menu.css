@@ -1,0 +1,391 @@
+body {
+    margin-top: 15px;
+    background-color: #e5b791;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+
+    gap: 60px;
+    margin: 50px 100px;
+    
+}
+
+.cabecalho a {
+    font-family: Fonte1;
+    text-decoration: none;
+
+    margin-top: 40px;
+
+    color: #421a14;
+}
+
+.cabecalho h1 {
+    font-size: 70px;
+    margin: 0px 10px;
+
+    font-family: fonte1;
+    color: #582b24;
+
+    text-shadow: 5px 1px 3px #000000;
+}
+
+
+.linha {
+    color: #646464;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#principal {
+    display: flex;
+    margin: 50px 0px;
+
+    background-color: #421a14;
+    padding: 50px 50px;
+    margin: 50px 0px;
+}
+
+
+
+.cartao {
+    display: inline-block;
+    flex-direction: column;
+
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+
+    margin-left: 30px;
+    background-color: #fff;
+
+    box-shadow: 0px 3px 7px #b4b4b4;
+}
+
+.cartao img {
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.textos {
+    padding: 20px 22px;
+    font-family: Fonte4;
+
+}
+
+.cartao h2 {  
+    font-family: fonte1 ;
+    margin-bottom: 12px;
+}
+
+.cartao p {
+    margin-bottom: 15px;
+}
+
+.cartao h5 {
+    margin-bottom: 15px ;
+}
+
+.alinha {
+    width: 150px;
+}
+
+.crispy {
+    height: 270px;
+}
+
+.margin {
+    margin: 20px;
+}
+
+
+
+
+
+
+#secundario {
+    display: flex;
+    margin: 50px;
+
+    background-color: #421a14;
+    padding: 50px 50px;
+    margin: 50px 0px;
+}
+
+.cartao2 {
+    display: inline-block;
+    flex-direction: column;
+
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 500px;
+    height: 700px;
+
+    margin-left: 30px;
+    background-color: #fff;
+
+    box-shadow: 0px 3px 7px #b4b4b4;
+}
+
+.cartao2 img {
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.textos2 {
+    padding: 20px 22px;
+    font-family: Fonte4;
+
+}
+
+.cartao2 h2 {  
+    font-family: fonte1 ;
+    margin-bottom: 12px;
+}
+
+.cartao2 p {
+    margin-bottom: 15px;
+}
+
+.cartao2 h5 {
+    margin-bottom: 15px ;
+}
+
+.titulo h1 {
+    font: 600 50px fonte1;
+    color: #582b24;
+
+    text-shadow: 2px 1px 2px #ffffff;
+
+    margin-top: 30px;
+
+    position: relative;
+    right: -130px;
+    bottom: -20px;
+}
+
+
+
+
+
+.carnes {
+    display: flex;
+    margin: 50px;
+
+    background-color: #421a14;
+    padding: 50px 50px;
+    margin: 50px 0px;
+}
+
+.cartao3 {
+    display: inline-block;
+    flex-direction: column;
+
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 400px;
+    height: 550px;
+
+    margin-left: 30px;
+    background-color: #fff;
+
+    box-shadow: 0px 3px 7px #b4b4b4;
+}
+
+.cartao3 img {
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.bife {
+    height: 270px;
+}
+
+.milanesa {
+    height: 270px;
+}
+
+
+.textos3 {
+    padding: 20px 22px;
+    font-family: Fonte4;
+
+}
+
+.cartao3 h2 {  
+    font-family: fonte1 ;
+    margin-bottom: 12px;
+}
+
+.cartao3 p {
+    margin-bottom: 15px;
+}
+
+.cartao3 h5 {
+    margin-bottom: 15px ;
+}
+
+.alinha3 {
+    width: 230px;
+}
+
+.alinha2 {
+    width: 200px;
+}
+
+
+
+
+
+
+
+.peixes {
+    display: flex;
+    margin: 50px;
+
+    background-color: #421a14;
+    padding: 50px 50px;
+    margin: 50px 0px;
+}
+
+.cartao4 {
+    display: inline-block;
+    flex-direction: column;
+
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 400px;
+    height: 550px;
+
+    margin-left: 30px;
+    background-color: #fff;
+
+    box-shadow: 0px 3px 7px #b4b4b4;
+}
+
+.cartao4 img {
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.textos {
+    padding: 20px 22px;
+    font-family: Fonte4;
+
+}
+
+.cartao4 h2 {  
+    font-family: fonte1 ;
+    margin-bottom: 12px;
+}
+
+.cartao4 p {
+    margin-bottom: 15px;
+}
+
+.cartao4 h5 {
+    margin-bottom: 15px ;
+}
+
+.alinha4 {
+    height: 270px;
+}
+
+
+
+
+
+
+.frangos {
+    display: flex;
+    margin: 50px;
+
+    background-color: #421a14;
+    padding: 50px 50px;
+    margin: 50px 0px;
+}
+
+.cartao5 {
+    display: inline-block;
+    flex-direction: column;
+
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 400px;
+    height: 550px;
+
+    margin-left: 30px;
+    background-color: #fff;
+
+    box-shadow: 0px 3px 7px #b4b4b4;
+}
+
+.cartao5 img {
+    width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.textos {
+    padding: 20px 22px;
+    font-family: Fonte4;
+
+}
+
+.cartao5 h2 {  
+    font-family: fonte1 ;
+    margin-bottom: 12px;
+}
+
+.cartao5 p {
+    margin-bottom: 15px;
+}
+
+.cartao5 h5 {
+    margin-bottom: 15px ;
+}
+
+
+
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#cima {
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
